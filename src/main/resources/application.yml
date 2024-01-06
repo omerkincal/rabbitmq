@@ -7,7 +7,11 @@ spring:
 rabbitmq:
   queue:
     name: omerkincal
+    json:
+      name: omerkincal_json
   exchange:
     name: omerkincal_exchange
   routing:
     key: omerkincal_routing_key
+    json:
+      key: omerkincal_json_routing_key
